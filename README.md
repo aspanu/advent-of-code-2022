@@ -1,2 +1,2 @@
-# advent-of-code-2021
-Advent of Code (https://adventofcode.com/2021) for the year 2021 
+# advent-of-code-2022
+Advent of Code (https://adventofcode.com/2022) for the year 2022 
