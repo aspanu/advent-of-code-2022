@@ -2,7 +2,7 @@
 fun main() {
 println(day16Part1(day16TestInput))
 println(day16Part1(day16PuzzleInput))
-println(day16Part2(day16PuzzleInput))
+println(day16Part2(day16TestInput))
 println(day16Part2(day16PuzzleInput))
 }
 
