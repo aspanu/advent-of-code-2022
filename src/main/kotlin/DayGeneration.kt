@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main() {
-    for (i in 1..25) {
+    for (i in 2..25) {
         generateDay(i)
     }
 }
@@ -12,7 +12,7 @@ fun generateDay(dayNum: Int): String {
     generatedString.append("fun main() {").appendLine()
     generatedString.append("println(day${dayNum}Part1(day${dayNum}TestInput))").appendLine()
     generatedString.append("println(day${dayNum}Part1(day${dayNum}PuzzleInput))").appendLine()
-    generatedString.append("println(day${dayNum}Part2(day${dayNum}PuzzleInput))").appendLine()
+    generatedString.append("println(day${dayNum}Part2(day${dayNum}TestInput))").appendLine()
     generatedString.append("println(day${dayNum}Part2(day${dayNum}PuzzleInput))").appendLine()
     generatedString.append("}").appendLine()
     generatedString.appendLine()
