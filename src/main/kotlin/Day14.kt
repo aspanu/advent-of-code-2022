@@ -7,11 +7,11 @@ println(day14Part2(day14PuzzleInput))
 }
 
 fun day14Part1(input: String): Int {
-return 0
+	return 0
 }
 
 fun day14Part2(input: String): Int {
-return 0
+	return 0
 }
 
 const val day14TestInput = """"""

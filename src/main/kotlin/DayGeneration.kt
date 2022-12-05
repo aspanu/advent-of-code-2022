@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main() {
-    for (i in 2..25) {
+    for (i in 5..25) {
         generateDay(i)
     }
 }
@@ -17,11 +17,11 @@ fun generateDay(dayNum: Int): String {
     generatedString.append("}").appendLine()
     generatedString.appendLine()
     generatedString.append("fun day${dayNum}Part1(input: String): Int {").appendLine()
-    generatedString.append("return 0").appendLine()
+    generatedString.append("\treturn 0").appendLine()
     generatedString.append("}").appendLine()
     generatedString.appendLine()
     generatedString.append("fun day${dayNum}Part2(input: String): Int {").appendLine()
-    generatedString.append("return 0").appendLine()
+    generatedString.append("\treturn 0").appendLine()
     generatedString.append("}").appendLine()
     generatedString.appendLine()
     generatedString.append("const val day${dayNum}TestInput = \"\"\"\"\"\"").appendLine()
